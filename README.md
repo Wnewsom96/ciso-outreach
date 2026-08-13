@@ -22,22 +22,25 @@ The output sounds like it came from someone who actually knows the target. Not a
 
 ## Installation
 
-### Option 1 — Install from GitHub (recommended)
+### Option 1 — Per session (no install required)
 
 ```bash
-claude --plugin-dir https://github.com/Wnewsom96/ciso-outreach
+claude --plugin-url https://github.com/Wnewsom96/ciso-outreach/archive/refs/heads/main.zip
 ```
 
-### Option 2 — Clone and install locally
+### Option 2 — Clone and install for a session
 
 ```bash
 git clone https://github.com/Wnewsom96/ciso-outreach.git
 claude --plugin-dir ./ciso-outreach
 ```
 
-### Option 3 — Personal skill (this machine only)
+### Option 3 — Install permanently (always available)
 
-Copy the contents of this repo into `~/.claude/skills/ciso-outreach/`.
+```bash
+git clone https://github.com/Wnewsom96/ciso-outreach.git
+cp -r ciso-outreach/skills/ciso-outreach ~/.claude/skills/ciso-outreach
+```
 
 ---
 
