@@ -1,0 +1,19 @@
+{
+  "name": "ciso-outreach",
+  "version": "1.0.0",
+  "description": "Research any cybersecurity executive (CISO, CIO, VP Security, Head of AppSec) and generate a complete, targeted outreach campaign. Takes a name, LinkedIn URL, company, and what you're selling. Outputs a full intelligence report plus a multi-channel outreach package: 4-touch email sequence, LinkedIn sequence, cold call script with objection handlers, and a direct mail concept. Built specifically for enterprise cybersecurity sales.",
+  "author": "wnewsom32@gmail.com",
+  "skills": [
+    {
+      "name": "ciso-outreach",
+      "path": "SKILL.md",
+      "description": "Research a cybersecurity executive and generate a full outreach package. Input: name, company or LinkedIn URL, product/service being sold. Output: intelligence report and complete multi-channel campaign."
+    }
+  ],
+  "references": [
+    "references/ciso-psychology.md",
+    "references/product-mapping.md",
+    "references/outreach-templates.md",
+    "references/research-protocol.md"
+  ]
+}
